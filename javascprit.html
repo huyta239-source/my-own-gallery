@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>my gallery</h2>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://png.pngtree.com/thumb_back/fh260/background/20240801/pngtree-new-cb-background-images-photos-pics-wallpaper-pictures-image_16123145.jpg">
+      <img src="https://png.pngtree.com/thumb_back/fh260/background/20240801/pngtree-new-cb-background-images-photos-pics-wallpaper-pictures-image_16123145.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">cool picture i found</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://wallartprints-bt.myshopify.com/cdn/shop/files/lake-moraine-nature-pictures-45364998.jpg">
+      <img src="https://wallartprints-bt.myshopify.com/cdn/shop/files/lake-moraine-nature-pictures-45364998.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">lake and mountains</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://i.pinimg.com/236x/58/76/90/58769058cb9afc2e381353120d22c482.jpg">
+      <img src="https://i.pinimg.com/236x/58/76/90/58769058cb9afc2e381353120d22c482.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">cool foresrt</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://media.istockphoto.com/id/157373207/photo/balanced-stones-on-a-pebble-beach-during-sunset.jpg?s=612x612&w=0&k=20&c=V4Lua2fcDJmGiTb_JQu2EP6XmFLuAo7e3eI3cUXPNec=">
+      <img src="https://media.istockphoto.com/id/157373207/photo/balanced-stones-on-a-pebble-beach-during-sunset.jpg?s=612x612&w=0&k=20&c=V4Lua2fcDJmGiTb_JQu2EP6XmFLuAo7e3eI3cUXPNec=" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">picture of rock piling balanced</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>hi.</p>
+</div>
+
+</body>
+</html>
